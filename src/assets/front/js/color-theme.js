@@ -1,0 +1,1 @@
+(function(){var ldTheme=localStorage.getItem('ldSwitch');if(ldTheme=='dark'||(ldTheme=='system'&&window.matchMedia("(prefers-color-scheme: dark)").matches)){document.getElementsByTagName("html")[0].setAttribute('data-theme','dark');}}());
